@@ -1,4 +1,4 @@
-/* Created By Kayla Bot WhatsApp */
+/* Created By Jah Bot WhatsApp */
 /* WhatsApp Creator Di Bawah */
 /* wa.me/6287705048235 */
 
@@ -28,7 +28,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion()
 const kayla = kaylaConnect({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Kayla Bot WhatsApp (2022)','Safari','1.0.0'],
+browser: ['Jah Bot WhatsApp (2022)','Safari','1.0.0'],
 auth: state,
 version
 })
@@ -132,7 +132,7 @@ participant: `0@s.whatsapp.net`,
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "SALAM DARI Jah Bot"
 	}
 ],
 "selectableOptionsCount": 5
@@ -161,7 +161,7 @@ participant: `0@s.whatsapp.net`,
 "optionName": "KATANYA KEBAL"
 	},
 	{
-"optionName": "SALAM DARI KAYLA BOT"
+"optionName": "SALAM DARI Jah Bot"
 	}
 ],
 "selectableOptionsCount": 5
@@ -422,11 +422,11 @@ const tod = generateWAMessageFromContent(jid,
 "description": desc,
 "currencyCode": "IDR",
 "priceAmount1000": "100000",
-"url": `https://youtube.com/channel/UC7NslQroUqQYzo2wDFBOUMg`,
+"url": `https://chat.whatsapp.com/LqbvV6R1EJpIISHIU6S28T`,
 "productImageCount": 1,
 "salePriceAmount1000": "0"
 },
-"businessOwnerJid": `6287705048235@s.whatsapp.net`
+"businessOwnerJid": `6283857687084@s.whatsapp.net`
 }
 }, options)
 return kayla.relayMessage(jid, tod.message, {messageId: tod.key.id})
